@@ -16,15 +16,6 @@ from models.network_fusion2 import MaskedSwinFusion as net
 from utils import utils_option as option
 from torch.nn import functional as F
 
-''' 
-mask25 500
-mask50 15030
-90 15030
-111  5000
-222 12,500
-110.5
-'''
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str,
@@ -151,3 +142,4 @@ def test(img_ir, img_vi, model, args, window_size):
 
 if __name__ == '__main__':
     main()
+
