@@ -1,4 +1,4 @@
-# CMMAEFuse
+# CMMAEFuse: Cross-Modality Masked Autoencoder for Infrared and Visible Image Fusion
 
 # Train
 
