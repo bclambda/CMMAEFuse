@@ -4,6 +4,7 @@
 
 ```python
 python pretrain.py --opt options/pretrain.json
+python fusion.py --opt options/fusion.json
 ```
 # Test
 
